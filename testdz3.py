@@ -26,6 +26,73 @@ else:
     print("com not in www")
     ####################################
 
+www = 'www.conquer_and_command.net'
+if ".com" in www:
+    print("com in www")
+else:
+    print("com not in www")
+    #################################
 
+volue = 123
+my_str = str(volue) if volue < 200 else str(volue % 10)
+print(my_str)
+###############
 
+volue = 321
+my_str = str(volue) if volue < 200 else str(volue) [::-1]
+print(my_str)
+##############
+
+volue= "123456789"
+my_str = volue if len(volue)<5 else volue [2:5]
+print(my_str)
+###########
+
+volue = "123456789"
+my_str=volue if len(volue)>=5 else volue [2:5]
+print(my_str)
+################
+
+volue = "123456789"
+my_str=volue if len(volue)<5 else volue [2:5:2]
+print(my_str)
+##############
+
+volue = "123456789"
+my_str=volue if len(volue)>=5 else volue [2:5:2]
+print(my_str)
+##############
+
+volue = "123456789"
+my_str=volue if len(volue)<=5 else volue [2:5]
+print(my_str[::-1])
+#################
+
+volue = "123456789"
+my_str=volue if len(volue)>=5 else volue [2:5]
+print(my_str[::-1])
+###############
+
+volue = "123456789"
+my_str=volue if len(volue)<=5 else volue [2:5:2]
+print(my_str[::-1])
+#################
+
+count=10
+while count >0:
+    print("Test")
+###################
+
+count=10
+while count >0:
+    print("Test")
+    count -= 1
+
+count=10
+exit_flag=True
+while exit_flag :
+    count -=1
+    if count >0:
+        exit_flag = False
+        print("Test")
 
