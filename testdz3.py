@@ -38,6 +38,14 @@ my_str = str(volue) if volue < 200 else str(volue % 10)
 print(my_str)
 ###############
 
+volue=321
+my_str=str(volue) if volue<200 else str(volue %10)
+print(my_str)
+
+volue=123
+my_str=str(volue) if volue<200 else str(volue)[::-1]
+print(my_str)
+
 volue = 321
 my_str = str(volue) if volue < 200 else str(volue) [::-1]
 print(my_str)
@@ -78,9 +86,9 @@ my_str=volue if len(volue)<=5 else volue [2:5:2]
 print(my_str[::-1])
 #################
 
-count=10
-while count >0:
-    print("Test")
+#count=10
+#while count >0:
+  #  print("Test")
 ###################
 
 count=10
