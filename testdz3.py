@@ -105,5 +105,54 @@ while exit_flag :
         print("Test")
 
 ################
-#1
-volue = 10
+
+#1##########
+value=100
+if value < 100:
+    new_value = (value/2)
+else:
+    new_value =(-value)
+    print(new_value)
+2###########
+
+value=100
+if value<100:
+    new_value = (value%3)
+else:
+    new_value =(value%2)
+    print(new_value)
+3###########
+value = 100
+if value < 100:
+    new_value =True
+else:
+    new_value = False
+    print(new_value)
+    #######
+4##################
+my_str = "lesson3"
+print(my_str[5:-1])
+print(my_str[3:-3])
+print(my_str[1:-5])
+
+5######################
+
+my_str="lesson3"
+print(my_str[6:])
+print(my_str[4:-2])
+print(my_str[2:-4])
+print(my_str[:-6])
+
+6###########################
+
+my_str = "qwer"
+new_my_str = "qwer"
+nnew_my_str =my_str+new_my_str
+print(nnew_my_str)
+
+7###################
+my_str= "qwer"
+new_my_str= "rewq"
+nnew_my_str= my_str+new_my_str
+print(nnew_my_str)
+
