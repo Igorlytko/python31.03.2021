@@ -28,9 +28,5 @@
 #b=str(a)if a < 200 else int(a %2)
 #print(b)
 
-value=201
-if value<100:
-    new_value = (value%3)
-else:
-    new_value =(value%2)
-    print(new_value)
+value = "maestro"
+print(value[1::2])
