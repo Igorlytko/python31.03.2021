@@ -76,7 +76,7 @@ my_list.append(1)
 print(values)
 #########
 my_list = ["a","b","c","d","e","f"]
-my_str = "".join(my_list)
+my_str = " ".join(my_list)
 print(my_str)
 #####
 my_list = ["a","b","c","d","e","f"]
